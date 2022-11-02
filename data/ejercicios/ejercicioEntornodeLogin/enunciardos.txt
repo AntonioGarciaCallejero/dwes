@@ -1,0 +1,25 @@
+Crear un entorno de login
+
+- La pagina de login: usuario y password
+    -usuario = usuario
+    password = 1234 => ok , rol = 0
+
+    -usuario = admin
+    password = 4567 =>ok , rol= 1
+
+    -si nok => muestre mensaje login errorneo
+-si login ok => principal.php . Bienvenido usuario te lo muestra
+    -Enlace logout.php
+-Logout.php => cerrar la sesion y enlace/redireccion a login.php
+
+
+Lista de deseos
+
+deseos.php => desplegable: vaqueros
+                            telefono movil
+                            coche
+                            collar
+se van mostrando en la misma pagina lo elegido.
+    ->sesiones, codificarlo con json
+        ->recuperar de la informacion del json codificado
+agregar al carrito de una lista de deseos con sesiones y json

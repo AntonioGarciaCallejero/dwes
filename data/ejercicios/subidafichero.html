@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- cuando se trabaja con fichero el metodo siempre post y enctype tiene que tener ese valor -->
+    <form action="cargaficheros.php" method="post" enctype="multipart/form-data">
+        <!-- tiene que ir todo dentro del formulario -->
+    <p>
+        <label for="mifich">Selecciona un fichero </label>
+        <input type="file" name="myfile" id="mifich">
+    
+    </p>
+    <p>
+    <!-- un boton para enviar la mierda, el otro es para browsearla solo -->
+        <input type="submit" name="envio" value="Enviar fichero">
+    </p>
+
+</form>
+</body>
+</html>
