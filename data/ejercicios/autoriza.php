@@ -87,6 +87,19 @@
                 echo "<br>No has elegido ningun equipo";
             }
         }
+
+
+        if(isset($_GET["envio"])){
+            $ip = $_GET["ip"];
+            if(!empty($ip)){
+                //la llave del for each no es necesaria creo
+               
+                echo "La ip del servidor es : " . $ip;
+                
+            }else{
+                echo "<br>no se ha podido averiguar la ip del servidor";
+            }
+        }
     ?>
 </body>
 </html>

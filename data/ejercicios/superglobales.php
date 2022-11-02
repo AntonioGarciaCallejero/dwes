@@ -2,6 +2,7 @@
     $mihost = $_SERVER['HTTP_HOST'];
     echo "<br>El host al que le va la peticion es: " . $mihost;
 /*mostrar aqui:
+cosas con $_SERVER
     mminiejercicio
  -el nombre del servidor web
  'SERVER_NAME'

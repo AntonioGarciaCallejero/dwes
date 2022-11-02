@@ -4,7 +4,7 @@
     <title>ejemplo</title>
 </head><body>
     <h2>Formularios & inputs</h2>
-    Los tipos básicos de input son: 
+    Los tipos básicos de input son: <br>
     text: texto <br>
     password: contraseña <br>
     hidden: texto no visible en pantalla <br>
@@ -29,7 +29,11 @@
         <input type="radio" name="sexo" value="female" checked> Mujer<br>
 
         Elige un color:  <br>
+        <!-- esto es una lista desplegable -->
         <select name="color">
+            <!-- el optgroup no hace falta creo, es un label  -->
+            <!-- aqui hay un selected -->
+            <!-- en este lo que se guarda es lo de dentro de la etiqueta -->
          <optgroup label="Grupo de colores">
            <option>rojo</option>
            <option>azul</option>
@@ -101,7 +105,8 @@
     
     
 
-
+<!-- esto es otra lista desplegable, es de seleccion multiple asi que tiene un array -->
+<!-- lo que importa es el value me los va a guardar en un array indexado -->
     <hr>
     <form method="post" action="11action.php">
         <label for="cars">Elige un coche:</label>
@@ -114,4 +119,6 @@
         <br><br>
         <input type="submit" value="Enviar">
     </form>
+
+    
 </body></html>

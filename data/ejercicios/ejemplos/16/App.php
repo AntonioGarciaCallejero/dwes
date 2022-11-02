@@ -14,6 +14,7 @@ class App
   public function run()
   {
     echo "Moneda al aire... <hr>";
+    // esto es para hacer un random entre 0 y 1
     $moneda = rand(0,1);
     // if ($moneda == 1) {
     if ($moneda) {
@@ -21,6 +22,7 @@ class App
       $this->index();
     } else {
       echo "<h3> Ha salido cruz: </h3> <br>";
+      // llamo a otra funcion de aqui dentro
       $this->login();
     }
   }

@@ -4,6 +4,7 @@
         <title>ejemplo</title>
 </head><body>
     <h2>Nuestro primer formulario</h2>
+    <!-- get te envia la info como texto plano en la url -->
     <form method="get" action="10action.php">
         <label>Nombre</label><input type="text" value="" name="nombre"><br>
         <label>Apellidos</label><input type="text" value="" name="apellidos"><br>

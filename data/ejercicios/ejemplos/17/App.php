@@ -25,6 +25,7 @@ class App
     }
   }
 
+  //parece que el include te saca esa mierda
   public function index()
   {
     echo "Estamos en el index<br>";

@@ -11,7 +11,11 @@
     </form>
     
     <h2>Datos enviados</h2>
+    <!-- en la primera pasada el post estara vacio -->
+    <!-- una parte de la pagina que mostrara 
+    una cosa u otra dependiendo de lo que hayamos hecho con $_POST -->
     <?php
+    // si no esta sin declarar o su valor es null y si no es igual a false o 0
     if(isset($_POST) && !empty($_POST)){
         echo "Recibido!! Mira la URL en tu navegador. Está 'limpia' <hr>";
         echo "Bienvenido $_POST[nombre] $_POST[apellidos]";
