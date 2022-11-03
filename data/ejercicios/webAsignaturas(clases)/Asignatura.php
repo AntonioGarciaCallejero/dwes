@@ -45,6 +45,7 @@
         private $numcreditos = null;
 
         //estaticos que son de la clase
+        //Entiendo que van a ser el mismo para todos los objetos ¿o no?
         private static $ciclo = null; //estatico
 
         public function __construct($nombre, $numcreditos)

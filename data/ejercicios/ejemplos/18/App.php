@@ -5,6 +5,7 @@ class App
   public function __construct($name = "Aplicación PHP")
   {
     // echo "Consturyendo la app <hr>";
+  
     $this->name = $name;
     $this->module = "Desarrollo Web en Entorno Servidor";
     $this->teacher = "Rafael Cabeza";

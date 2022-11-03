@@ -17,6 +17,9 @@
 
   Me llamo <?= $this->student ?>
   <br>
+  <!-- podriamos ponerlo como $this->teacher, tambien
+  aqui podemos usar el $this porque estamos dentro la funcion de la clase app -->
+  
   Estamos estudiando <?= $this->module ?> con el profesor <?= $app->teacher ?>
 </body>
 </html>

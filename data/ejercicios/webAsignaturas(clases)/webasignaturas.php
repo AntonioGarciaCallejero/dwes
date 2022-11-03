@@ -13,8 +13,17 @@
 
     Asignatura::setCiclo("DAM");
     echo "<br> " . $bbdd;
-    echo "<br>BBDD pertence al ciclo" . Asignatura::getCiclo();
+    echo "<br>BBDD pertence al ciclo" . Asignatura::getCiclo() . "<br><br>";
+
+    //ESTE ES EL OTRO
     $dwes = new Modulo("DWES",9, "IFC3014");
+    //o alo mejor si que funciona bien espera
     Modulo::setCiclo("DAW");
     echo "<br>" . $dwes;
     echo "<br>DWES pertenece al ciclo " . Modulo::getCiclo();
+    //echo Asignatura::getCiclo();
+    //hacer probatinas
+    //confirmamos que el static (que es de la clase) es comun a todos los objetos
+    //y si lo cambias lo cambias para todos los objetos
+
+    

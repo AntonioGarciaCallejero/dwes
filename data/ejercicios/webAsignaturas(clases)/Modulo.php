@@ -31,9 +31,20 @@
         {
             //para llamar algo de la clase padre
             //aqui hay que llamar explicitamente al constructo de la superclase
+            //probar esto
             parent::__construct($nombre, $numerocreditos, $codigo);
             $this->codigo = $codigo;
         }
+
+
+        // function __construct($nombre, $numerocreditos, $codigo)
+        // {
+        //     //para llamar algo de la clase padre
+        //     //aqui hay que llamar explicitamente al constructo de la superclase
+        //     //probar esto, parece que tambien se puede hacer asi
+        //     parent::__construct($nombre, $numerocreditos);
+        //     $this->codigo = $codigo;
+        // }
 
         //lo suyo es que los atributos sean privados y se accedan araves de 
         function getCodigo(){
