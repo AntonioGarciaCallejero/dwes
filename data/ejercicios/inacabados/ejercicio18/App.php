@@ -25,6 +25,24 @@ class App
   
     $this->$method();      
   }
+  
+
+
+  public function auth(){
+    setcookie("name", $_GET["name"], time() + 3600);
+    setcookie("password", $_GET["password"], time() + 3600);
+    include ('views/home.php');
+  }
+  
+  public function new(){
+    //hay que crear la lista antes
+      $[$_GET["elementoLista"]
+      //un if, si existe la cookie la creamos sino no 
+      $lista = unserialize($_COOKIE["lista"]);
+      $lista[$_GET["elementoLista"]];
+      setcookie("lista")
+      
+  }
 
   public function index()
   {

@@ -1,5 +1,5 @@
 <?php
-    //serializa, unserialize, json_encode, json_decode
+    //serialize, unserialize, json_encode, json_decode
 
 
     $capitales = [

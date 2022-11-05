@@ -1,5 +1,5 @@
 <?php
-    if($_SERVER["RESQUEST_METHOD"] === "POST"){
+    if($_SERVER["REQUEST_METHOD"] === "POST"){
         if(isset($_POST["envio"])){
             session_start();
             $item = $_POST["lista"];

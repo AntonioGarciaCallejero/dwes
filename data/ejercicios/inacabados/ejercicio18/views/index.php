@@ -14,6 +14,7 @@
   if (empty($_COOKIE)) {
     echo "No hay cookies disponibles<br>";
     //al hacer esto me redigira al index inicial y ejecutara la funcion setcookie()
+    //esto es interesante, enlace con la wea
     echo "<a href=?method=setcookie>Crear cookies</a>";
   } else {   
     //te mostrara los valores de las cookies  

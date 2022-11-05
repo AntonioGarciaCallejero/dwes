@@ -1,4 +1,20 @@
 <?php
+    // crear web en la que seleecciones entre 3 idiomas: (radiobutton?) el expañol, ingles y alleman 
+    // y selecciones una marca de coche perferida y muestre el siguiente mensaje
+    
+    // Bienvenido querido usuario.
+    // Welcome dear user.
+    
+    
+    // y la marca de coche seleccionada.
+    
+    
+    // Esta informacion se debe guardar en cookies y luego recuperar la informacion
+    // Si no se slecciona idioma por defecto sera español
+
+    //header() y setcookie() tienen que ir antes del body
+
+
     if(isset($_POST["envio"])){
         if(!empty($_POST["idioma"]) && !isset($_COOKIE["idioma"])){
             //verificar que la variable no este vacia

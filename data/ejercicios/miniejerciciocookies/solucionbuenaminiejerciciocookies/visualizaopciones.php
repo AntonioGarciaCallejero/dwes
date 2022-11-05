@@ -6,6 +6,7 @@
 
         $mensajeidio = "";
         $mensajecoche = "";
+        //dependiendo de lo que haya en idioma elegiremos una mierda u otra
         switch($idioma){
             case "es":
                 $mensajeidio = "Bienvenido, querido usuario";
@@ -21,10 +22,12 @@
                 $mensajecoche = "du hams du hams du hamster : ";
             break;
             default:
+            //aqui es lo de que por defecto se mostrara español
             $mensajeidio = "Bienvenido, querido usuario";
             $mensajecoche = "Tu marca de coche favorita es :";
         }
 
+        //y luego mostraremos concatenados
         $mensajecoche = $mensajecoche . $marca;
 
         echo "<h2>" . $mensajeidio . "</h2>";
